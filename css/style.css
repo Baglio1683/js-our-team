@@ -1,0 +1,18 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 80vh;
+    width: 90vw;
+    background-color: lightgreen;
+    margin: 0 auto;
+    padding-left: 2rem;
+    
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}

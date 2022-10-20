@@ -24,6 +24,30 @@ peopleTeams.push(people4);
 peopleTeams.push(people5);
 peopleTeams.push(people6);
 
+console.log(peopleTeams);
+
+const list_team = document.getElementById("list_team");
 
 
-console.log(peopleTeams)
+CreateTeam(peopleTeams); 
+
+
+
+
+// DEFINITION OF FUNCTION 
+
+
+function CreateTeam(arrayMembers){
+
+    for(let j=0 ; j < arrayMembers.length ; j++){
+
+        let member = document.createElement('li'); 
+        
+        member.innerHTML = arrayMembers[j].name + ", " + arrayMembers[j].role + ", " + arrayMembers[j].photo; 
+     
+        list_team.append(member); 
+     
+     }
+
+}
+
