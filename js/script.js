@@ -1,43 +1,39 @@
-const people1= {
+const peopleTeamsconst = [{
 
     name: "Wayne Barnett",
     role: "Founder & CEO",
     photo: "img/wayne-barnett-founder-ceo.jpg"
-};
+}, 
 
-const people2= {
+{
     name: "Angela Caroll",
     role: "Chief Editor",
     photo: "img/angela-caroll-chief-editor.jpg"
-};
+},
 
-const people3= {
+{
     name:"Walter Gordon",
     role: "Office Manager",
     photo: "img/walter-gordon-office-manager.jpg"
-};
+},
 
-const people4= {
+{
     name : "Angela Lopez",
     role: "Social Media Manager",
     photo: "img/angela-lopez-social-media-manager.jpg"
-};
+},
 
-const people5= {
+{
     name: "Scott Estrada",
     role: "Developer",
     photo: "img/scott-estrada-developer.jpg"
-};
+},
 
-const people6= {
+{
     name: "Barbara Ramos",
     role: "Graphic Designer",
     photo: "img/barbara-ramos-graphic-designer.jpg"
-};
-
-
-const peopleTeams = [people1,people2,people3,people4,people5,people6];
-
+}]; 
 
 const list_team = document.getElementById("list_team");
 
